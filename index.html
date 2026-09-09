@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Form 2 Bahasa Melayu 长篇作文系统</title>
+<style>
+:root{--bg:#f7f5ef;--card:#fff;--ink:#1f2937;--muted:#667085;--line:#ded9cc;--accent:#315f72;--accent2:#8a5a44;--soft:#eef3f4;--warn:#fff7e8}
+*{box-sizing:border-box} body{margin:0;font-family:"Noto Sans SC","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:28px 18px 60px}
+.hero{background:linear-gradient(135deg,#fff 0%,#eef3f4 100%);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 10px 28px rgba(0,0,0,.06)}
+.eyebrow{font-size:.83rem;font-weight:800;letter-spacing:.08em;color:var(--accent);text-transform:uppercase}.hero h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.1;margin:.4rem 0 1rem}.hero p{max-width:760px;color:var(--muted);font-size:1.05rem}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.badge{padding:8px 12px;background:#fff;border:1px solid var(--line);border-radius:999px;font-size:.88rem;font-weight:700}
+.section-title{margin:34px 0 14px;font-size:1.45rem}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;min-height:170px;box-shadow:0 5px 14px rgba(0,0,0,.04)}
+.card h3{margin:8px 0 6px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.93rem}.num{width:38px;height:38px;border-radius:12px;background:var(--soft);display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--accent)}
+.card.active{outline:2px solid #c5d5d9}.card.active:hover{transform:translateY(-2px)}.status{font-size:.75rem;font-weight:800;color:var(--accent2);margin-top:12px}
+.path{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:16px}.step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center;font-weight:800;font-size:.9rem}.arrow{color:var(--muted)}
+.footer{margin-top:40px;color:var(--muted);font-size:.85rem;text-align:center}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.path{grid-template-columns:1fr}.arrow{display:none}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{padding:22px}.wrap{padding:18px 12px 40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">KSSM Tingkatan 2 Bahasa Melayu</div>
+    <h1>长篇作文应变系统</h1>
+    <p>不是背几十篇范文，而是训练学生看懂题目、判断题型、选最安全的一题，再调用正确骨架和主题内容。</p>
+    <div class="badges"><span class="badge">视觉学习</span><span class="badge">可打印</span><span class="badge">可离线保存</span><span class="badge">手机 / 平板 / 电脑</span></div>
+  </section>
+
+  <h2 class="section-title">考试处理路线</h2>
+  <div class="path">
+    <div class="step">1. 看 Tema<br><small>主题</small></div>
+    <div class="step">2. 找 Kata Tugas<br><small>任务词</small></div>
+    <div class="step">3. 判 Jenis<br><small>作文类型</small></div>
+    <div class="step">4. 定 Kehendak<br><small>真正要回答什么</small></div>
+    <div class="step">5. 选最安全的一题<br><small>三选一</small></div>
+  </div>
+
+  <h2 class="section-title">当前已上传内容</h2>
+  <div class="grid">
+    <a class="card active" href="phase3.html"><div class="num">P3</div><h3>题型转换训练</h3><p>同一主题转换成不同作文形式。</p><div class="status">打开</div></a>
+    <a class="card active" href="phase4.html"><div class="num">P4</div><h3>三选一决策</h3><p>快速判断哪一题最安全。</p><div class="status">打开</div></a>
+    <a class="card active" href="planning.html"><div class="num">PL</div><h3>作文 Planning</h3><p>限时规划与段落安排。</p><div class="status">打开</div></a>
+    <a class="card active" href="checklist.html"><div class="num">CK</div><h3>交卷检查</h3><p>检查格式、内容、语言与离题风险。</p><div class="status">打开</div></a>
+    <a class="card active" href="phase5.html"><div class="num">P5</div><h3>模拟训练中心</h3><p>进入实战模拟。</p><div class="status">打开</div></a>
+    <a class="card active" href="answer-guide.html"><div class="num">TG</div><h3>教师指南</h3><p>使用建议与批改参考。</p><div class="status">打开</div></a>
+  </div>
+
+  <div class="footer">Form 2 BM Karangan System</div>
+</div>
+</body>
+</html>
