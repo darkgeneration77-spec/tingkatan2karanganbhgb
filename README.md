@@ -1,0 +1,1 @@
+# tingkatan2karanganbhgb
